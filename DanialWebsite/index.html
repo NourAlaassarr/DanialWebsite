@@ -1,53 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="./css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="./css/all.min.css" rel="stylesheet"/>
-    <link href="./css/style.css" rel="stylesheet"/>
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./css/all.min.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg  fixed-top navbar-dark  ">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bolder" href="#">Danials</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 p-6">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#worj">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
     <!-- home -->
-    <section id="Home" class="Home ">
+    <section id="home" class="Home ">
         <div class="layer d-flex align-items-center justify-content-center ">
-            <div class="hometext ">
-                <h2 class="text-white fw-bolder text-mine">Hello</h2>
+            <div class="column">
+                <div class="hometext text-center ">
+                    <h2 class="text-white fw-bolder text-mine">Hello</h2>
+                    <h3 class="text-white fw-bolder text-mine">I'am</h3>
+                </div>
+                <div class="socialLinks d-flex justify-content-center align-items-center mx-auto p-5">
+                    <div class="Socialicon d-flex justify-content-center align-items-center rounded-circle ms-0 ">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="Socialicon d-flex justify-content-center align-items-center rounded-circle ms-0">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="Socialicon d-flex justify-content-center align-items-center rounded-circle ms-0">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="Socialicon d-flex justify-content-center align-items-center rounded-circle ms-0">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="Socialicon d-flex justify-content-center align-items-center rounded-circle ms-0">
+                        <i class="fa-brands fa-behance"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-        </div>
-        
+
     </section>
     <!-- About -->
-    <section class="About-Me  m-5 py-2">
+    <section id="about" class="About-Me  m-5 py-2">
         <div class="container">
             <div class="row">
                 <div class=" col-md-5 offset-1 ">
                     <div class="about-img">
-                        <img src="./imgs/hero.jpg"/>
+                        <img src="./imgs/hero.jpg" />
                     </div>
                 </div>
 
                 <div class="AboutText col-md-6  ">
                     <h2 class=" fw-bolder">About Me.</h2>
                     <h5 class="text-muted">UI / UX DESIGNER & WEB DEVELOPER</h5>
-                    <p class=" lead text-muted text-mine ">I am <span class=" fw-bold text-muted opacity-75">Jerry Daniels</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, 
-                        but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    <p class=" lead text-muted text-mine ">I am <span class=" fw-bold text-muted opacity-75">Jerry
+                            Daniels</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five
+                        centuries,
+                        but also the leap into electronic but also the leap into electronic typesetting, remaining
+                        essentially unchanged.
                         It was popularised in the 1960s with the release of Letraset sheets containing</p>
                     <button class="btn btn-dark">Download C.V</button>
                     <button class="btn btn-outline-dark ">Contact Me</button>
                 </div>
-                
+
             </div>
         </div>
     </section>
 
     <!-- Services -->
-    <section class="Services ">
+    <section id="services" class="Services ">
         <div class="title d-flex justify-content-center align-items-center">
             <h2 class=" fw-bold">Services.</h2>
-        <h5 class=" fw-bold position-absolute">Services.</h5>
+            <h5 class=" fw-bold position-absolute">Services.</h5>
         </div>
-        <div class="container">
-            <div class="row g-4 mt-2">
+        <div class="container ">
+            <div class="row g-4 mb-2 py-4">
                 <div class="col-md-4">
                     <div class="item text-center bg-white p-5">
                         <span class="icon rounded-circle p-4 ">
@@ -55,8 +117,8 @@
                         </span>
                         <div class="servicetext ">
                             <h2 class=" fw-bolder">Web Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the 
-                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                Lorem Ipsum has been the industry's standard dummy text ever</p>
                         </div>
                     </div>
                 </div>
@@ -67,8 +129,8 @@
                         </span>
                         <div class="servicetext ">
                             <h2 class=" fw-bold">Web Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the 
-                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                Lorem Ipsum has been the industry's standard dummy text ever</p>
                         </div>
                     </div>
                 </div>
@@ -79,8 +141,8 @@
                         </span>
                         <div class="servicetext ">
                             <h2 class=" fw-bold">Web Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the 
-                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                Lorem Ipsum has been the industry's standard dummy text ever</p>
                         </div>
                     </div>
                 </div>
@@ -91,8 +153,8 @@
                         </span>
                         <div class="servicetext ">
                             <h2 class=" fw-bold">Web Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the 
-                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                Lorem Ipsum has been the industry's standard dummy text ever</p>
                         </div>
                     </div>
                 </div>
@@ -103,8 +165,8 @@
                         </span>
                         <div class="servicetext ">
                             <h2 class=" fw-bold">Web Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the 
-                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                Lorem Ipsum has been the industry's standard dummy text ever</p>
                         </div>
                     </div>
                 </div>
@@ -115,14 +177,179 @@
                         </span>
                         <div class="servicetext ">
                             <h2 class=" fw-bold">Web Design</h2>
-                        <p>Lorem Ipsum is simply dummy text of the 
-                            Lorem Ipsum has been the industry's standard dummy text ever</p>
+                            <p>Lorem Ipsum is simply dummy text of the
+                                Lorem Ipsum has been the industry's standard dummy text ever</p>
                         </div>
                     </div>
                 </div>
-                
+
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="portfolio">
+        <div class="title d-flex justify-content-center align-items-center m-3 p-4">
+            <h2 class=" fw-bold">Portfolio.</h2>
+            <h5 class=" fw-bold position-absolute">Portfolio.</h5>
+        </div>
+        <div class="container ">
+            <ul class="nav nav-underline m-4 p-3  d-flex justify-content-center " id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                        role="tab" aria-controls="pills-home" aria-selected="true">All</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                        role="tab" aria-controls="pills-profile" aria-selected="false">Brand</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-design-tab" data-bs-toggle="pill" data-bs-target="#pills-design"
+                        role="tab" aria-controls="pills-design" aria-selected="false">Design</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="pills-graphics-tab" data-bs-toggle="pill" data-bs-target="#pills-Graphics"
+                        role="tab" aria-controls="pills-Graphics" aria-selected="false">Graphics</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row g-4  m-lg-2  p-4">
+                            <div class=" col-md-4 ">
+                                <img src="./imgs/portfolio/1.jpg" class='w-100' />
+
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/2.jpg" class='w-100' />
+
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/3.jpg" class='w-100' />
+
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/4.jpg" class='w-100' />
+
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/5.jpg" class='w-100' />
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/6.jpg" class='w-100' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class=" col-md-4 ">
+                                <img src="./imgs/portfolio/4.jpg" class=" w-100" />
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/6.jpg" class=" w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class=" col-md-4 ">
+                                <img src="./imgs/portfolio/3.jpg" class=" w-100" />
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/5.jpg" class=" w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-Graphics" role="tabpanel" aria-labelledby="pills-Graphics-tab"
+                    tabindex="0">
+                    <div class="container">
+                        <div class="row g-4">
+                            <div class=" col-md-4 ">
+                                <img src="./imgs/portfolio/1.jpg" class=" w-100" />
+                            </div>
+                            <div class=" col-md-4 ">
+                                <img src="./imgs/portfolio/3.jpg" class=" w-100" />
+                            </div>
+                            <div class=" col-md-4">
+                                <img src="./imgs/portfolio/5.jpg" class=" w-100" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Testimonials-class mt-3 p-5">
+        <div class="title d-flex justify-content-center align-items-center p-4">
+            <h2 class=" fw-bold">Testimonials.</h2>
+            <h5 class=" fw-bold position-absolute">Testimonials.</h5>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide ">
+            <div class="carousel-inner mx-auto w-75">
+                <div class="carousel-item active">
+                    <div class="testimg d-flex justify-content-center">
+                        <img src="./imgs/1_New1.jpg" class="Client-img shadow-lg rounded-circle">
+                    </div>
+                    <div class="clientFeedback p-5 text-center ">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illo expedita, in voluptate ipsum modi consequuntur? Aliquam id voluptate fuga!</p>
+                        <h4 class="text-muted fw-lighter">Alex Smith</h4>
+                        <h6 class="text-muted">Envato Customer</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimg d-flex justify-content-center">
+                        <img src="./imgs/1_New1.jpg" class="Client-img  shadow-lg rounded-circle">
+                    </div>
+                    <div class="clientFeedback p-5 text-center">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illo expedita,
+                            in voluptate ipsum modi consequuntur? Aliquam id voluptate fuga!</p>
+                            <h4 class="text-muted fw-lighter">Alex Smith</h4>
+                        <h6 class="text-muted">Envato Customer</h6>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimg d-flex justify-content-center">
+                        <img src="./imgs/1_New1.jpg" class="Client-img  shadow-lg rounded-circle">
+                    </div>
+                    <div class="clientFeedback p-5 text-center">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illo expedita,
+                            in voluptate ipsum modi consequuntur? Aliquam id voluptate fuga!</p>
+                            <h4 class="text-muted fw-lighter">Alex Smith</h4>
+                        <h6 class="text-muted">Envato Customer</h6>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carousel-indicators position-static">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
         </div>
     </section>
 </body>
+
 </html>
