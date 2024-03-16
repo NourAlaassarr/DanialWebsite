@@ -1,18 +1,38 @@
-body{
-    
-}
-.navbar{
-    background-color: rgba(0, 0, 0, 0.3);
-    
-}
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width:80%
-}
 @font-face {
     font-family:"pop" ;
     src: url("../Poppins/Poppins-Bold.ttf")
 }
+
+
+text-mine{
+    font-family: pop;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.542);
+    padding: 5px;
+    
+}
+.navlogo{
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+}
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width:80%;
+} */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.collapse .navbar-collapse{
+padding: 20px;
+}
+
+
+
+
+
+
 /* home */
 .Home{
     background-image: url('../imgs/bg.jpg');
@@ -138,6 +158,21 @@ body{
     left: 0;
     z-index:-99;
 }
+.textabout{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.job{
+
+    color: #79898a;
+}
+.progress-bar{
+    background-color:black;
+    
+}
+.contentprogress{
+    font-size: 24px;
+}
 
 /* service */
 .Services{
@@ -173,12 +208,8 @@ font-size: 80px;
     background-color: black;
     color: rgb(255, 255, 255);
 }
-.nav-link{
-    color:black;
-    font-weight: bolder;
-    font-size: 15px;
-}
-.nav-link:focus, .nav-link:hover {
+
+.navport a{
     color: black;
 }
 .portimg{
@@ -187,9 +218,7 @@ font-size: 80px;
 .portimg img{
     width: 100%;
 }
-text-mine{
-    font-family: pop;
-}
+
 
 /* testmonial */
 .Testimonials-class{
@@ -217,10 +246,70 @@ background-color:  #f7f7f7;
     font-size: 18px;
     font-family: pop;
 }
+.bg-mine{
+    background-color: rgba(52, 52, 52, 0.8);
+}
+/* team */
+.Team{
+    background-color:  #f7f7f7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.imglayer{
+    overflow: hidden;
+    position: relative;
+}
 
+.imageShadow{
+    width: 96%;
+    height: 96%;
+    background-color: rgba(255, 255, 255, 0.884);
+    position: absolute;
+    top: 100%;
+    padding: 0px 25px;
+    transition: all ease-in 0.5s;
+
+}
+.imglayer:hover img{
+    transform: scale(1.1);;
+}
+.imglayer:hover .imageShadow{
+    top: 0;
+    transform: rotatey(360deg) ;
+}
+
+.socialLinks {
+    list-style: none;
+    padding: 20px;
+}
+.sociallink{
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    margin:2px 5px ;
+    padding: 10px;
+    transform: translate(50%);
+
+}
+.sociallink a {
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+
+
+/* conatct */
+
+.contacttext h3{
+font-size: 24px;
+}
+.contacttext p{
+    font-size: 15px;
+}
 /* footer */
 footer p{
     color: #748182;
     font-size: 18px;
-    margin-top: 10px;
+    padding: 20px;
 }
