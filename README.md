@@ -1,4 +1,4 @@
-# DanialWebsite using bootstrap css html
+# DanielWebsite using bootstrap css html
 ![image](https://github.com/NourAlaassarr/DanielWebsite/assets/104293377/3109fba3-4902-49e5-b25b-eb433259daf1)
 ![image](https://github.com/NourAlaassarr/DanialWebsite/assets/104293377/651dcb57-45f7-4e98-9800-00a7e67317e9)
 ![image](https://github.com/NourAlaassarr/DanialWebsite/assets/104293377/71d988e4-4897-45d7-b3b3-a7f61eef6acb)
