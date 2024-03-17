@@ -29,7 +29,9 @@ padding: 20px;
 }
 
 
-
+.conatinernav{
+    width: 80%;
+}
 
 
 
@@ -306,6 +308,9 @@ font-size: 24px;
 }
 .contacttext p{
     font-size: 15px;
+}
+.butttondark{
+    padding: 5px 25px;
 }
 /* footer */
 footer p{
