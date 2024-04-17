@@ -11,8 +11,8 @@
 
 ## How to Use:
 <hr>
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
+1. Clone the repository to your local machine.<br>
+2. Open the `index.html` file in your preferred web browser.<br>
 
 
 Feel free to contribute, report issues, or suggest improvements.
