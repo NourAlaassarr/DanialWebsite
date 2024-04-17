@@ -7,3 +7,14 @@
 ![image](https://github.com/NourAlaassarr/DanielWebsite/assets/104293377/86176bf9-b15f-434d-ad1b-5f1ee2dadf1d)
 ![image](https://github.com/NourAlaassarr/DanielWebsite/assets/104293377/1a5a3615-0dec-42de-928c-e29ed0eebc0f)
 ![image](https://github.com/NourAlaassarr/DanielWebsite/assets/104293377/9450e4f5-accf-4306-92d6-1e5032fa52e2)
+
+
+## How to Use:
+<hr>
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your preferred web browser.
+
+
+Feel free to contribute, report issues, or suggest improvements.
+
+Happy browsing!!!
